@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
+    "django_google_maps",
     "home",
 ]
 
@@ -158,3 +158,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 LOGIN_REDIRECT_URL = '/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+GOOGLE_MAPS_API_KEY = 'AIzaSyC6_bz-eQXbuB4Jyj5X4aI6sY2TNKvUtGE'
